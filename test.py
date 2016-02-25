@@ -7,10 +7,6 @@ This is a temporary script file.
 
 import sys
 import PyQt4.QtGui as QtGui
-
-
-def on_click():
-    pbutton.setText(" ^o^ ")
     
 def main():
     global pbutton
