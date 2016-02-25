@@ -5,3 +5,16 @@ Spyder Editor
 This is a temporary script file.
 """
 
+import sys
+import PyQt4.QtGui as QtGui
+
+def main():
+    app = QtGui.QApplication(sys.argv)
+    mainW = QtGui.QMainWindow()
+    pbutton = QtGui.QPushButton("Hollo")
+    mainW.setCentralWidget(pbutton)
+    mainW.show()
+    app.exec_()
+    
+if __name__ == '__main__':
+    main()
